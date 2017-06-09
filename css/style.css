@@ -1,0 +1,10 @@
+.nav-btns{
+	float: right;
+}
+
+.footer {
+	background-color: #00aab2;
+	height: 100px;
+	position: relative;
+	z-index: 0;
+}

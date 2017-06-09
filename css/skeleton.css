@@ -17,6 +17,7 @@
 - Buttons
 - Forms
 - Lists
+- Images (added by me)
 - Code
 - Tables
 - Spacing
@@ -302,6 +303,16 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: 1rem; }
+
+  /* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero-illustration {
+
+}
+
+.hero-background {
+  display: block;
+}
 
 
 /* Code
