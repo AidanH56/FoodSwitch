@@ -4,30 +4,39 @@
 
 .hero-logo {
 	position: relative;
+	margin-top: 25px;
+}
+.hero-illustration {
+	margin-bottom: 40px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 30px;
 }
 
 /*Navigation bar */
 
 .nav-top {
 	height: 20px;
+	margin-top: 40px;
 }
 
 .nav-top ul {
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	text-align: right;
 	color: #FFFFFF;
+	float: right;
 }
 
 .nav-top ul li {
 	list-style: none;
+	display: inline-block;
+	padding: 0 5px 0;
 }
 
 .nav-top ul li a {
 	text-decoration: none;
-	float: left;
-	display: inline-block;
-	padding: 5px 5px;
 	color: #FFFFFF;
 }
 
@@ -38,27 +47,105 @@
 /* Hero Content*/
 
 .hero-tagline {
-	margin-top: 40px;
+	margin-top: 60px;
+	padding-top: 30px;
 	color: #ffffff;
 }
 
 .hero-p {
-
+	max-width: 450px;
 }
 
 /* Benefits Sections*/
 
 .benefits-fs {
-	margin-top: 12%;
+	margin-top: 20%;
 }
+
+.benefits-four {
+	
+}
+
+/* Track your diet */
+
 .diet-image {
 	float: left;
+	margin-top: 35px;
+}
+
+.track-icon {
+	margin-bottom: 10px;
+}
+
+.track-diet-p {
+	margin-top: -10px;
+}
+
+/* Alt. Foods */
+
+.alt-foods {
+	background-color: #00aab2;
+}
+
+.alt-foods-section {
+	margin-top: 80px;
+}
+
+.food-alt-image {
+
+}
+
+.alt-foods-header {
+	width: 400px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+.alt-foods-p {
+	width: 280px;
+}
+
+/* Custom Meals */
+.custom-meals {
+	background-color: #00aab2;
+}
+
+/* Testimonial */
+.testimonials-setup {
+
 }
 
 /* Footer */
-.footer {
+.footer-nav {
 	background-color: #00aab2;
-	height: 100px;
-	position: relative;
-	z-index: 0;
+}
+
+.footer-logo {
+	margin-top: 50px;
+}
+
+.footer-links {
+	float: right;
+}
+
+.footer-links li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.footer-links li a {
+	color: #FFFFFF;
+}
+
+.footer-links li a:hover {
+	color: blue;
+}
+
+.copyright-info {
+	color: #FFFFFF;
+}
+
+.testimonial-btn {
+	float: right;
+
 }
