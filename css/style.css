@@ -7,12 +7,22 @@
 
 .hero-logo {
 	position: relative;
-	margin-top: 25px;
 }
 .hero-illustration {
 	margin-top: 10px;
 	padding-top: 20px;
 	padding-left: 30px;
+}
+
+.logo-search {
+	margin-top: 25px;
+}
+
+/* Search Bar */
+.search-bar {
+	position: relative;
+	float: right;
+	margin-top: 7px;
 }
 
 /*Navigation bar */
@@ -156,6 +166,7 @@
 
 .pricing-header {
 	text-align: center;
+	font-size: 21px;
 	line-height: 36px;
 }
 
