@@ -1,5 +1,8 @@
 .hero{
-	background-color: #00aab2;
+  background : #00AAB2;
+  background : rgba(0, 170, 178, 1);
+  width : 1440px;
+  height : 460px;
 }
 
 .hero-logo {
@@ -7,17 +10,16 @@
 	margin-top: 25px;
 }
 .hero-illustration {
-	margin-bottom: 40px;
-	margin-top: 20px;
+	margin-top: 10px;
 	padding-top: 20px;
 	padding-left: 30px;
-	padding-bottom: 30px;
 }
 
 /*Navigation bar */
 
 .nav-top {
-	height: 20px;
+	width : 524px;
+  	height : 27px;
 	margin-top: 40px;
 }
 
@@ -59,7 +61,7 @@
 /* Benefits Sections*/
 
 .benefits-fs {
-	margin-top: 20%;
+	margin-top: 16%;
 }
 
 .benefits-four {
@@ -70,11 +72,13 @@
 
 .diet-image {
 	float: left;
-	margin-top: 35px;
+	margin-top: 100px;
+	margin-bottom: 15px;
 }
 
 .track-icon {
 	margin-bottom: 10px;
+	margin-top: 30%;
 }
 
 .track-diet-p {
@@ -83,12 +87,23 @@
 
 /* Alt. Foods */
 
+.c-alt-foods {
+
+}
+
 .alt-foods {
-	background-color: #00aab2;
+	background : #00AAB2;
+ 	background : rgba(0, 170, 178, 1);
+    width : 1440px;
+    height : 525px;
 }
 
 .alt-foods-section {
 	margin-top: 80px;
+}
+
+.alt-foods-icon {
+	color: #FFFFFF;
 }
 
 .food-alt-image {
@@ -99,15 +114,86 @@
 	width: 400px;
 	padding-top: 5px;
 	margin-bottom: 10px;
+	color: #FFFFFF;
 }
 
 .alt-foods-p {
 	width: 280px;
+	color: #FFFFFF;
+	line-height : 27px;
+}
+
+/* Connect with Others */
+.community-image {
+	margin-bottom: 23%;
+	margin-left: 8%;
+	position: relative;
 }
 
 /* Custom Meals */
 .custom-meals {
-	background-color: #00aab2;
+  background : #00AAB2;
+  background : rgba(0, 170, 178, 1);
+  width : 1440px;
+  height : 796px;
+}
+
+.custom-meals-image {
+	position: relative;
+	margin-right: 10%;
+
+}
+
+.custom-meals-text {
+	color: #FFFFFF;
+	margin-left: 30px;
+	margin-top: 70px;
+	width : 310px;
+  	height : 251px;
+}
+
+/* Pricing */
+
+.pricing-header {
+	text-align: center;
+	line-height: 36px;
+}
+
+.tables {
+	list-style: none;
+}
+
+.box {
+  background-repeat : no-repeat;
+  width :  262px;
+  height : 369px;
+  background : #E0E0E0;
+  background : rgba(224, 224, 224, 1);
+  border-radius : 4px;
+}
+
+.table-header {
+  background : #00AAB2;
+  background : rgba(0, 170, 178, 1);
+  width : 262px;
+  height : 66px;
+  border-radius : 4px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box ul li {
+	list-style: none;
+	text-align: center;
+}
+
+.box ul li a {
+
+}
+
+.princing-btn {
+	width : 164px;
+  	height : 34px;
 }
 
 /* Testimonial */
@@ -115,14 +201,25 @@
 
 }
 
+.testimonial-h3 {
+	text-align: center;
+}
+
+.testimonial-p {
+	text-align: center;
+}
+
+.testimonial-h3 .testimonial-p {
+	margin-right: 5%;
+}
+
 /* Footer */
 .footer-nav {
 	background-color: #00aab2;
+	width : 1440px;
+ 	height : 197px;
 }
 
-.footer-logo {
-	margin-top: 50px;
-}
 
 .footer-links {
 	float: right;
@@ -130,7 +227,7 @@
 
 .footer-links li {
 	list-style: none;
-	margin-bottom: 10px;
+	line-height: 21px;
 }
 
 .footer-links li a {
@@ -141,11 +238,15 @@
 	color: blue;
 }
 
+.footer-logo {
+	margin-top: 30px;
+}
+
 .copyright-info {
 	color: #FFFFFF;
 }
 
-.testimonial-btn {
+.footer-btn {
 	float: right;
 
 }
