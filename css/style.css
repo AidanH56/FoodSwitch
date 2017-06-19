@@ -30,7 +30,8 @@
 .nav-top {
 	width : 524px;
   	height : 27px;
-	margin-top: 40px;
+	margin-top: 37px;
+	font-weight: bold;
 }
 
 .nav-top ul {
@@ -44,7 +45,7 @@
 .nav-top ul li {
 	list-style: none;
 	display: inline-block;
-	padding: 0 5px 0;
+	padding: 0 10px 0;
 }
 
 .nav-top ul li a {
@@ -168,29 +169,34 @@
 	text-align: center;
 	font-size: 21px;
 	line-height: 36px;
+	position: relative;
 }
 
 .tables {
 	list-style: none;
+	position: relative;
 }
 
 .box {
   background-repeat : no-repeat;
-  width :  262px;
-  height : 369px;
   background : #E0E0E0;
   background : rgba(224, 224, 224, 1);
   border-radius : 4px;
+  margin: 0;
+  padding: 0;
+
 }
 
 .table-header {
   background : #00AAB2;
   background : rgba(0, 170, 178, 1);
-  width : 262px;
-  height : 66px;
   border-radius : 4px;
   text-align: center;
   color: #ffffff;
+}
+
+.box ul {
+
 }
 
 .box ul li {
@@ -202,9 +208,13 @@
 
 }
 
+.box2 {
+	
+}
+
 .princing-btn {
-	width : 164px;
-  	height : 34px;
+	
+	margin-left: 20px;
 }
 
 /* Testimonial */
