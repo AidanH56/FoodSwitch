@@ -256,19 +256,37 @@
 }
 
 .testimonial-quote {
-	
+	margin-left: 16%;
+	margin-top: -6%;
+	font-style: italic;
+	width: 450px;
 }
 
-.circle1 {
-
+.circles {
+	margin-left: 20%;
 }
 
-.circle2.circle3.circle4.circle5 {
-	width: 14px;
-	height: 14px;
+.circles li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	width: 16px;
+	height: 16px;
+	border-radius: 32px;
+	position: relative;
+	background-color: #afafaf;
+}
+
+.circles .circle-1 {
+	width: 16px;
+	height: 16px;
+	border-radius: 32px;
 	background-color: grey;
 	position: relative;
+	background-color: #333333;
 }
+
+
 
 /* Footer */
 .footer-nav {
