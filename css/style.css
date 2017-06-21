@@ -167,9 +167,10 @@
 
 .pricing-header {
 	text-align: center;
-	font-size: 21px;
 	line-height: 36px;
 	position: relative;
+	margin-top: 16%;
+	margin-bottom: 4%;
 }
 
 .tables {
@@ -182,8 +183,9 @@
   background : #E0E0E0;
   background : rgba(224, 224, 224, 1);
   border-radius : 4px;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  height : 369px;
+  position: relative;
 
 }
 
@@ -191,6 +193,9 @@
   background : #00AAB2;
   background : rgba(0, 170, 178, 1);
   border-radius : 4px;
+  font-size: 24px;
+  height : 66px;
+  line-height: 65px;
   text-align: center;
   color: #ffffff;
 }
@@ -208,13 +213,12 @@
 
 }
 
-.box2 {
-	
+.princing-btn {
+	margin-left: 15px;
 }
 
-.princing-btn {
-	
-	margin-left: 20px;
+.pricing-btn1 {
+	margin-top: 31.5%;
 }
 
 /* Testimonial */
@@ -222,16 +226,48 @@
 
 }
 
+.testimonial {
+	list-style: none;
+}
+
+.testimonial-name {
+	position: absolute;
+	margin-top: -13%;
+	margin-left: 21%;
+}
+
+.test-icon {
+	position: absolute;
+	margin: 10px 30px;
+}
+
 .testimonial-h3 {
 	text-align: center;
+	margin-top: 16%;
 }
 
 .testimonial-p {
 	text-align: center;
+	font-size: 24px;
 }
 
 .testimonial-h3 .testimonial-p {
 	margin-right: 5%;
+}
+
+.testimonial-quote {
+	
+}
+
+.circle1 {
+
+}
+
+.circle2.circle3.circle4.circle5 {
+	width: 14px;
+	height: 14px;
+	background-color: grey;
+	position: relative;
 }
 
 /* Footer */
