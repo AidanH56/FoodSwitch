@@ -316,7 +316,7 @@
 
 .footer-links {
 	position: relative;
-	margin-top: -10%;
+	margin-top: -11.75%;
 	margin-left: 40%;
 
 }
@@ -341,6 +341,7 @@
 
 .copyright-info {
 	color: #FFFFFF;
+	margin-top: 2.5%;
 }
 
 .footer-btn {
