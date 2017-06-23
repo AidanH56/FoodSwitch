@@ -328,6 +328,7 @@
 
 .footer-links li a {
 	color: #FFFFFF;
+	text-decoration: none;
 }
 
 .footer-links li a:hover {
