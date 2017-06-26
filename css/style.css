@@ -316,8 +316,8 @@
 
 .footer-links {
 	position: relative;
-	margin-top: -11.75%;
-	margin-left: 40%;
+	margin-top: -20.75%;
+	float: right;
 
 }
 
@@ -332,11 +332,11 @@
 }
 
 .footer-links li a:hover {
-	color: blue;
+	text-decoration: underline;
 }
 
 .footer-logo {
-	margin-top: 5%;
+	margin-top: 7%;
 }
 
 .copyright-info {
@@ -346,7 +346,7 @@
 
 .footer-btn {
 	float: right;
-	margin-top: -12%;
+	margin-top: 20%;
 	width: 230px;
 
 }
