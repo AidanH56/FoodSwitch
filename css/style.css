@@ -10,7 +10,7 @@
 .hero-illustration {
 	margin-top: 10px;
 	padding-top: 20px;
-	padding-left: 50px;
+	margin-left: -35%;
 }
 
 .logo-search {
@@ -355,7 +355,14 @@
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-
+	.hero-logo {
+		width: 50%;
+	}
+	.search-bar {
+		width: 45%;
+		padding: -1px 10px;
+		margin-top: -0.5%;
+	}
 }
 
 /* Larger than phablet (also point when grid becomes active) */
