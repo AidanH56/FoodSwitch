@@ -116,10 +116,6 @@
 	color: #FFFFFF;
 }
 
-.food-alt-image {
-
-}
-
 .alt-foods-header {
 	padding-top: 5px;
 	margin-bottom: 10px;
@@ -354,33 +350,187 @@
 /* Media Queries */
 
 /* Larger than mobile */
-@media (min-width: 400px) {
-	.hero-logo {
-		width: 50%;
+@media (min-width: 25em) {
+	.hero {
+		height: 740px;
 	}
+
 	.search-bar {
-		width: 45%;
-		padding: -1px 10px;
-		margin-top: -0.5%;
+		visibility: hidden;
 	}
+
+	.nav-top {
+		margin-top: 27px;
+		background-color: #e16b3d;
+	}
+
+	.nav-top ul li {
+		padding: 0 3px 0;
+		font-size: 14px;
+	}
+
+	.SYDA-h3 {
+		text-align: center;
+	}
+
+	.hero-p {
+		text-align: center;
+	}
+
+	.hero-btn {
+		position: absolute;
+		margin-left: 21%;
+	}
+
+	.hero-illustration {
+		margin-left: 6%;
+		height: 14em;
+		margin-top: 4em;
+	}
+
+	.hero-btn {
+		position: absolute;
+		margin-left: 22%;
+	}
+
+	.diet-image {
+		height: 250px;
+	}
+
+	.food-alt-image {
+		height: 143px;
+	}
+
+	.community-image {
+		height: 180px;
+		margin-left: 6px;
+	}
+
+	.custom-meals-image {
+		height: 245px;
+		margin-right: 0px;
+	}
+
+	.box {
+		width: 50%;
+		margin-top: 20px;
+		height: 269px;
+	}
+
+	.testimonial-quote {
+		width: 290px;
+	}
+
+	.testimonial-avatar {
+		height: 90px;
+	}
+
+	.copyright-info {
+		width: 200px;
+	}
+
+	.footer-links {
+		margin-top: -36.75%;
+	}
+
+	.copyright-info {
+		width: 200px;
+		font-size: 12px;
+	}
+
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+	.diet-image {
+		max-width: 720px;
+		max-height: 447px;
+	}
+
+	.food-alt-image {
+		max-width: 600px;
+		max-height: 220px;
+	}
+
+	.community-image {
+		max-width: 602px;
+		max-height: 341px;
+	}
+
+	.custom-meals-image {
+		max-width: 652px;
+		max-height: 441px;
+	}
 
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+	.diet-image {
+		max-width: 720px;
+		max-height: 447px;
+	}
+
+	.food-alt-image {
+		max-width: 600px;
+		max-height: 220px;
+	}
+
+	.community-image {
+		max-width: 602px;
+		max-height: 341px;
+	}
+
+	.custom-meals-image {
+		max-width: 652px;
+		max-height: 441px;
+	}
 
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
+	.diet-image {
+		max-width: 720px;
+		max-height: 447px;
+	}
+
+	.food-alt-image {
+		max-width: 600px;
+		max-height: 220px;
+	}
+
+	.community-image {
+		max-width: 602px;
+		max-height: 341px;
+	}
+
+	.custom-meals-image {
+		max-width: 652px;
+		max-height: 441px;
+	}
 
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-	
+	.diet-image {
+		max-width: 720px;
+		max-height: 447px;
+	}
+
+	.food-alt-image {
+		max-width: 600px;
+		max-height: 220px;
+	}
+
+	.community-image {
+		max-width: 602px;
+		max-height: 341px;
+	}
+
+	.custom-meals-image {
+		max-width: 652px;
+		max-height: 441px;
+	}
 }
