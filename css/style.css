@@ -74,10 +74,6 @@
 	margin-top: 16%;
 }
 
-.benefits-four {
-	
-}
-
 /* Track your diet */
 
 .diet-image {
@@ -98,9 +94,6 @@
 
 /* Alt. Foods */
 
-.c-alt-foods {
-
-}
 
 .alt-foods {
 	background : #00AAB2;
@@ -204,6 +197,10 @@
 
 }
 
+.free-box {
+	height: 18.5em;
+}
+
 .table-header {
   background : #00AAB2;
   background : rgba(0, 170, 178, 1);
@@ -233,7 +230,8 @@
 }
 
 .pricing-btn1 {
-	margin-top: 31.5%;
+	margin-top: -6.5%;
+	/*previous % was 31.5%*/
 }
 
 /* Testimonial */
@@ -356,7 +354,7 @@
 	}
 
 	.search-bar {
-		visibility: hidden;
+		display: none;
 	}
 
 	.nav-top {
@@ -380,7 +378,7 @@
 	.hero-illustration {
 		margin-left: 6%;
 		height: 14em;
-		margin-top: 4em;
+		margin-top: 5em;
 	}
 
 	.hero-btn {
@@ -388,36 +386,124 @@
 		margin-left: 22%;
 	}
 
+	.track-icon {
+		margin-left: 5em;
+	}
+
+	.track-diet-h3 {
+		text-align: center;
+	}
+
+	.track-diet-p {
+		text-align: center;
+	}
+
 	.diet-image {
 		height: 250px;
+		margin-top: 0px;
 	}
 
 	.food-alt-image {
 		height: 143px;
 	}
 
+	.alt-foods-icon {
+		margin-left: 5.2em;
+	}
+
+	.alt-foods-header {
+		text-align: center;
+		margin-left: 0.5em;
+	}
+
+	.alt-foods-p {
+		text-align: center;
+		margin-left: 2.5em;
+	}
+
+	.connection-icon {
+		margin-left: 5em;
+	}
+
+	.connection-header {
+		text-align: center;
+		margin-left: 0.5em;
+	}
+
+	.connection-p {
+		text-align: center;
+		margin-left: 4em;
+	}
+
 	.community-image {
 		height: 180px;
 		margin-left: 6px;
+		margin-top: -1.5em;
 	}
 
 	.custom-meals-image {
 		height: 245px;
 		margin-right: 0px;
+		margin-top: 3.5em;
+	}
+
+	.custom-meals-text {
+		margin-top: 1em;
+	}
+
+	.custom-meals-icon {
+		margin-left: 4em;
+	}
+
+	.custom-meals-h3 {
+		text-align: center;
+		margin-left: -0.5em;
+	}
+
+	.custom-meals-p {
+		text-align: center;
+		margin-left: 1.2em;
+	}
+
+	.custom-meals-btn {
+		margin-left: 3em;
 	}
 
 	.box {
-		width: 50%;
+		width: 65%;
 		margin-top: 20px;
-		height: 269px;
+	}
+
+	.testimonial-name {
+		position: absolute;
+		margin-top: 11%;
+		margin-left: 28%;
+		text-align: center;
+	}
+
+	.testimonial-h3 {
+		margin-top: 36%;
 	}
 
 	.testimonial-quote {
 		width: 290px;
+		margin-left: 14%;
+		margin-top: 28%;
 	}
 
 	.testimonial-avatar {
-		height: 90px;
+		height: 110px;
+		margin-left: 8em;
+	}
+
+	.test-icon {
+		position: absolute;
+		margin-left: -6em;
+		margin-top: 4em;
+	}
+
+	.circles {
+		margin-left: 14%;
 	}
 
 	.copyright-info {
@@ -430,7 +516,12 @@
 
 	.copyright-info {
 		width: 200px;
-		font-size: 12px;
+		font-size: 16px;
+	}
+
+	.footer-btn {
+		margin-top: 0%;
+		margin-left: 4em;
 	}
 
 }
