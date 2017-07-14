@@ -348,9 +348,13 @@
 /* Media Queries */
 
 /* Larger than mobile */
-@media (min-width: 25em) {
+@media (min-width: 25em)  {
 	.hero {
 		height: 740px;
+	}
+
+	.hero-logo {
+		margin-left: 5em;
 	}
 
 	.search-bar {
@@ -527,50 +531,370 @@
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
+@media (min-width: 34.375em) {
+	.hero {
+		height: 460px;
+	}
+
+	.hero-logo {
+		margin-left: 0em;
+	}
+
+	.search-bar {
+		display: inline;
+		margin-right: -15em;
+		margin-top: -3.2em;
+	}
+
+	.nav-top {
+		margin-top: 6em;
+		background-color: transparent;
+	}
+
+	.nav-top ul li {
+		padding: 0 3px 0;
+	}
+
+	.SYDA-h3 {
+		text-align: left;
+	}
+
+	.hero-p {
+		text-align: left;
+	}
+
+	.hero-illustration {
+		margin-left: 6%;
+		height: 14em;
+		margin-top: 5em;
+	}
+
+	.hero-btn {
+		position: absolute;
+		margin-left: 0%;
+	}
+
+	.track-icon {
+		margin-left: 0;
+	}
+
+	.track-diet-h3 {
+		text-align: left;
+		width: 7em;
+		margin-left: -0.1em;
+	}
+
+	.track-diet-p {
+		text-align: left;
+	}
+
 	.diet-image {
-		max-width: 720px;
-		max-height: 447px;
+		height: 250px;
+		margin-top: 6em;
 	}
 
 	.food-alt-image {
-		max-width: 600px;
-		max-height: 220px;
+		height: 143px;
+	}
+
+	.alt-foods-icon {
+		margin-left: 0em;
+	}
+
+	.alt-foods-header {
+		text-align: left;
+		margin-left: 0em;
+	}
+
+	.alt-foods-p {
+		text-align: left;
+		margin-left: 0em;
+	}
+
+	.connection-icon {
+		margin-left: 0em;
+	}
+
+	.connection-header {
+		text-align: left;
+		margin-left: 0em;
+	}
+
+	.connection-p {
+		text-align: left;
+		margin-left: 0em;
 	}
 
 	.community-image {
-		max-width: 602px;
-		max-height: 341px;
+		height: 180px;
+		margin-left: 6px;
+		margin-top: -1.5em;
 	}
 
 	.custom-meals-image {
-		max-width: 652px;
-		max-height: 441px;
+		height: 245px;
+		margin-right: 0px;
+		margin-top: 3.5em;
+	}
+
+	.custom-meals-text {
+		margin-top: 1em;
+	}
+
+	.custom-meals-icon {
+		margin-left: 0em;
+	}
+
+	.custom-meals-h3 {
+		text-align: left;
+		margin-left: -0.5em;
+	}
+
+	.custom-meals-p {
+		text-align: left;
+		margin-left: 0em;
+	}
+
+	.custom-meals-btn {
+		margin-left: 0em;
+	}
+
+	.box {
+		width: 65%;
+		margin-top: 20px;
+	}
+
+	.testimonial-name {
+		position: absolute;
+		margin-top: 11%;
+		margin-left: 0%;
+		text-align: left;
+	}
+
+	.testimonial-h3 {
+		margin-top: 36%;
+	}
+
+	.testimonial-quote {
+		width: 290px;
+		margin-left: 0%;
+		margin-top: 28%;
+	}
+
+	.testimonial-avatar {
+		height: 110px;
+		margin-left: 0em;
+	}
+
+	.test-icon {
+		position: absolute;
+		margin-left: -6em;
+		margin-top: 4em;
+	}
+
+	.circles {
+		margin-left: 14%;
+	}
+
+	.copyright-info {
+		width: 200px;
+	}
+
+	.footer-links {
+		margin-top: -36.75%;
+	}
+
+	.copyright-info {
+		width: 200px;
+		font-size: 16px;
+	}
+
+	.footer-btn {
+		margin-top: 4em;
+		margin-left: 4em;
 	}
 
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 46.875em) {
+	.hero {
+		height: 460px;
+	}
+
+	.search-bar {
+		display: inline;
+		margin-right: -10em;
+		margin-top: 0.5em;
+	}
+
+	.nav-top {
+		margin-top: 3em;
+	}
+
+	.nav-top ul li {
+
+	}
+
+	.SYDA-h3 {
+		text-align: left;
+	}
+
+	.hero-p {
+		text-align: left;
+	}
+
+	.hero-illustration {
+		margin-left: 6%;
+		height: 14em;
+		margin-top: 5em;
+	}
+
+	.hero-btn {
+		position: absolute;
+		margin-left: 0%;
+	}
+
+	.track-icon {
+		margin-left: 0;
+	}
+
+	.track-diet-h3 {
+		text-align: left;
+		width: 7em;
+		margin-left: -0.1em;
+	}
+
+	.track-diet-p {
+		text-align: left;
+	}
+
 	.diet-image {
 		max-width: 720px;
 		max-height: 447px;
+		margin-top: 6em;
 	}
 
 	.food-alt-image {
-		max-width: 600px;
-		max-height: 220px;
+		height: 150px;
+		margin-top: 3.5em;
+	}
+
+	.alt-foods-icon {
+		margin-left: 0em;
+	}
+
+	.alt-foods-header {
+		width: 7em;
+	}
+
+	.alt-foods-p {
+		width: 15em;
+	}
+
+	.connection-icon {
+		margin-left: 0em;
+	}
+
+	.connection-header {
+		text-align: left;
+		margin-left: 0em;
+	}
+
+	.connection-p {
+		text-align: left;
+		margin-left: 0em;
 	}
 
 	.community-image {
-		max-width: 602px;
-		max-height: 341px;
+		height: 221px;
+		margin-left: 4em;
+		margin-top: 2em;
 	}
 
 	.custom-meals-image {
-		max-width: 652px;
-		max-height: 441px;
+		height: 301px;
+		margin-left: -1.1em;
 	}
+
+	.custom-meals-text {
+		margin-top: 1em;
+	}
+
+	.custom-meals-icon {
+		margin-top: 1.5em;
+		margin-left: -1.5em;
+	}
+
+	.custom-meals-h3 {
+		text-align: left;
+		margin-left: -1.5em;
+	}
+
+	.custom-meals-p {
+		text-align: left;
+		margin-left: -3em;
+	}
+
+	.custom-meals-btn {
+		margin-left: -3em;
+	}
+
+	.box {
+		width: 65%;
+		margin-top: 20px;
+	}
+
+	.testimonial-name {
+		position: absolute;
+		margin-top: 11%;
+		margin-left: 0%;
+		text-align: left;
+	}
+
+	.testimonial-h3 {
+		margin-top: 36%;
+	}
+
+	.testimonial-quote {
+		width: 290px;
+		margin-left: 0%;
+		margin-top: 28%;
+	}
+
+	.testimonial-avatar {
+		height: 110px;
+		margin-left: 0em;
+	}
+
+	.test-icon {
+		position: absolute;
+		margin-left: -6em;
+		margin-top: 4em;
+	}
+
+	.circles {
+		margin-left: 14%;
+	}
+
+	.copyright-info {
+		width: 200px;
+	}
+
+	.footer-links {
+		margin-top: -36.75%;
+	}
+
+	.copyright-info {
+		width: 200px;
+		font-size: 16px;
+	}
+
+	.footer-btn {
+		margin-top: 4em;
+		margin-left: 4em;
+	}
+
 
 }
 
