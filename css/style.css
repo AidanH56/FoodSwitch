@@ -201,6 +201,10 @@
 	height: 18.5em;
 }
 
+.free-box-th {
+	margin-top: 3em;
+}
+
 .table-header {
   background : #00AAB2;
   background : rgba(0, 170, 178, 1);
@@ -564,9 +568,7 @@
 	}
 
 	.hero-illustration {
-		margin-left: 6%;
-		height: 14em;
-		margin-top: 5em;
+		
 	}
 
 	.hero-btn {
@@ -745,9 +747,7 @@
 	}
 
 	.hero-illustration {
-		margin-left: 6%;
-		height: 14em;
-		margin-top: 5em;
+		
 	}
 
 	.hero-btn {
@@ -840,9 +840,32 @@
 		margin-left: -3em;
 	}
 
+	.table-header {
+		font-size: 20px;
+	}
+
 	.box {
-		width: 65%;
-		margin-top: 20px;
+		width: 115%;
+	}
+
+	.free-box {
+		height: 20.5em;
+	}
+
+	.box2 {
+		margin-left: 1em;
+	}
+
+	.box3 {
+		margin-left: 2em;
+	}
+
+	.box4 {
+		margin-left: 3em;
+	}
+
+	.pricing-btn {
+		margin-left: 0%;
 	}
 
 	.testimonial-name {
