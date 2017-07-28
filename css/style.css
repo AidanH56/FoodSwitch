@@ -28,7 +28,7 @@
 
 .nav-top {
 	width : 524px;
-  	height : 27px;
+	height: 27px;
 	margin-top: 37px;
 	font-weight: bold;
 }
@@ -351,7 +351,9 @@
 
 /* Media Queries */
 
-/* Larger than mobile */
+/* Larger than mobile
+	400 px
+ */
 @media (min-width: 25em)  {
 	.hero {
 		height: 740px;
@@ -534,7 +536,9 @@
 
 }
 
-/* Larger than phablet (also point when grid becomes active) */
+/* Larger than phablet (also point when grid becomes active) 
+	550px
+*/
 @media (min-width: 34.375em) {
 	.hero {
 		height: 460px;
@@ -547,11 +551,11 @@
 	.search-bar {
 		display: inline;
 		margin-right: -15em;
-		margin-top: -3.2em;
+		margin-top: 0.5em;
 	}
 
 	.nav-top {
-		margin-top: 6em;
+		margin-top: 2.3em;
 		background-color: transparent;
 	}
 
@@ -569,6 +573,7 @@
 
 	.hero-illustration {
 		
+height: 13em;
 	}
 
 	.hero-btn {
@@ -593,6 +598,7 @@
 	.diet-image {
 		height: 250px;
 		margin-top: 6em;
+		margin-left: 3em;
 	}
 
 	.food-alt-image {
@@ -630,7 +636,7 @@
 	.community-image {
 		height: 180px;
 		margin-left: 6px;
-		margin-top: -1.5em;
+		margin-top: -0.5em;
 	}
 
 	.custom-meals-image {
@@ -644,17 +650,17 @@
 	}
 
 	.custom-meals-icon {
-		margin-left: 0em;
+		margin-left: 0.5em;
 	}
 
 	.custom-meals-h3 {
 		text-align: left;
-		margin-left: -0.5em;
+		margin-left: 0.5em;
 	}
 
 	.custom-meals-p {
 		text-align: left;
-		margin-left: 0em;
+		margin-left: 1em;
 	}
 
 	.custom-meals-btn {
@@ -718,7 +724,9 @@
 
 }
 
-/* Larger than tablet */
+/* Larger than tablet 
+	750px
+*/
 @media (min-width: 46.875em) {
 	.hero {
 		height: 460px;
@@ -731,7 +739,6 @@
 	}
 
 	.nav-top {
-		margin-top: 3em;
 	}
 
 	.nav-top ul li {
@@ -748,6 +755,11 @@
 
 	.hero-illustration {
 		
+		margin-left: -2.5em;
+		
+		height: 13em;
+		
+		margin-top: 4em;
 	}
 
 	.hero-btn {
@@ -771,7 +783,7 @@
 
 	.diet-image {
 		max-width: 720px;
-		max-height: 447px;
+		height: 18.125em;
 		margin-top: 6em;
 	}
 
