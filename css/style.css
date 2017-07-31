@@ -560,7 +560,7 @@
 	}
 
 	.nav-top ul li {
-		padding: 0 3px 0;
+		padding: 0 8px 0;
 	}
 
 	.SYDA-h3 {
@@ -734,7 +734,7 @@ height: 13em;
 
 	.search-bar {
 		display: inline;
-		margin-right: -10em;
+		margin-right: 5em;
 		margin-top: 0.5em;
 	}
 
@@ -755,11 +755,11 @@ height: 13em;
 
 	.hero-illustration {
 		
-		margin-left: -2.5em;
+		margin-left: -6.5em;
 		
-		height: 13em;
+		height: 17.5em;
 		
-		margin-top: 4em;
+		margin-top: 1em;
 	}
 
 	.hero-btn {
@@ -768,7 +768,7 @@ height: 13em;
 	}
 
 	.track-icon {
-		margin-left: 0;
+	margin-top: 15%;
 	}
 
 	.track-diet-h3 {
@@ -778,7 +778,6 @@ height: 13em;
 	}
 
 	.track-diet-p {
-		text-align: left;
 	}
 
 	.diet-image {
@@ -884,7 +883,6 @@ height: 13em;
 		position: absolute;
 		margin-top: 11%;
 		margin-left: 0%;
-		text-align: left;
 	}
 
 	.testimonial-h3 {
@@ -936,7 +934,6 @@ height: 13em;
 /* Larger than desktop */
 @media (min-width: 1000px) {
 	.diet-image {
-		max-width: 720px;
 		max-height: 447px;
 	}
 
@@ -960,22 +957,107 @@ height: 13em;
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 	.diet-image {
-		max-width: 720px;
-		max-height: 447px;
+		height: 25em;
 	}
 
+	.search-bar{
+      margin-right: -2.5em;
+  	}
+
+  	.nav-top ul li {
+   		padding: 0 8px 0;
+ 	 }
+
 	.food-alt-image {
-		max-width: 600px;
-		max-height: 220px;
+		height: 28em;
+		margin-top: 0;
 	}
 
 	.community-image {
-		max-width: 602px;
-		max-height: 341px;
+		height: 19em;
+	}
+
+	.custom-meals {
+		
+	height: 48em;
 	}
 
 	.custom-meals-image {
-		max-width: 652px;
-		max-height: 441px;
+		height: 25em;
+		margin-top: 1.5em;
 	}
+	
+	.custom-meals-text {
+		
+	margin-left: -1em;
+	}
+	
+	.box3 {
+	}
+	
+	.box4 {
+	}
+	
+	.princing-btn {
+		margin-left: 35px;
+	}
+	
+	.pricing-btn1 {
+		margin-top: 0.1em;
+	}
+
+	.testimonial-h3 {
+
+	margin-top: 16%;
+	}
+
+	.test-icon {
+
+	margin-top: 0.86em;
+	margin-left: 1em;
+	}
+	
+	.testimonial-avatar{
+		margin-left: 0em;
+	}
+
+	.testimonial-name {
+
+	margin-top: -9.3%;
+	margin-left: 13.5em;
+	}
+
+	.testimonial-quote {
+
+	margin-top: -1%;
+	margin-left: 9.5em;
+	width: 430px;
+	}
+
+	.circles {
+
+	margin-left: 21%;
+	margin-bottom: 6.4em;
+	margin-top: 3.7em;
+	}
+
+	/* Footer */
+	.footer-logo {
+
+	}
+
+	.copyright-info {
+
+	}
+
+	.footer-links {
+
+	margin-top: -26.75%;
+	}
+	
+	.footer-btn {
+		margin-top: 6em;
+	}
+
+
 }
