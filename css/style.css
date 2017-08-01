@@ -198,11 +198,9 @@
 }
 
 .free-box {
-	height: 18.5em;
 }
 
 .free-box-th {
-	margin-top: 3em;
 }
 
 .table-header {
@@ -354,7 +352,7 @@
 /* Larger than mobile
 	400 px
  */
-@media (min-width: 25em)  {
+@media (min-width: 400px)  {
 	.hero {
 		height: 740px;
 	}
@@ -539,7 +537,7 @@
 /* Larger than phablet (also point when grid becomes active) 
 	550px
 */
-@media (min-width: 34.375em) {
+@media (min-width: 550px) {
 	.hero {
 		height: 460px;
 	}
@@ -572,8 +570,7 @@
 	}
 
 	.hero-illustration {
-		
-height: 13em;
+		height: 13em;
 	}
 
 	.hero-btn {
@@ -727,7 +724,7 @@ height: 13em;
 /* Larger than tablet 
 	750px
 */
-@media (min-width: 46.875em) {
+@media (min-width: 750px) {
 	.hero {
 		height: 460px;
 	}
@@ -860,7 +857,6 @@ height: 13em;
 	}
 
 	.free-box {
-		height: 20.5em;
 	}
 
 	.box2 {
@@ -1003,7 +999,7 @@ height: 13em;
 	}
 	
 	.pricing-btn1 {
-		margin-top: 0.1em;
+		margin-top: 4.3em;
 	}
 
 	.testimonial-h3 {
